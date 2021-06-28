@@ -28,5 +28,5 @@ jobs:
         poetry install
     - name: Test with pytest
       run: |
-        PYTHONPATH=src:$PYTHONPATH
+        export PYTHONPATH=src
         poetry run pytest
