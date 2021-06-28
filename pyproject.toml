@@ -3,8 +3,6 @@ name = "generic-rest-api-example"
 version = "0.1.0"
 description = "Example of a containerized API endpoint."
 authors = ["Florian Salihovic <florian.salihovic@me.com>"]
-packages = [{ include = "", from = "src"}]
-
 
 [tool.poetry.dependencies]
 python = "^3.8"
