@@ -16,7 +16,7 @@ pymongo = "^3.11.4"
 black = "^21.5b1"
 flake8 = "^3.9.2"
 pre-commit = "^2.13.0"
-isort = "^5.9.1"
+isort = "^5.8.0"
 pytest = "^6.2.4"
 testcontainers = { extras = ["mongodb"], version = "^3.4.0" }
 
